@@ -1,3 +1,4 @@
+# SSRF payload in avi/mp4 file generator
 ## Usage
 
 1. `./gen_xbin_avi.py file://<filename> file_read.avi`
@@ -8,5 +9,8 @@
 
 ## How it works
 
-TBD
+Coded BY Trhacknon
+We dont forget.
+We dont forgive.
+Expect us.
 
