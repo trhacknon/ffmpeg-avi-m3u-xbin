@@ -139,7 +139,7 @@ if __name__ == "__main__":
     parser.add_argument(
         'filename',
         help='filename to be read from the server (prefix it with "file://")')
-    parser.add_argument('output_avi', help='where to save the avi')
+    parser.add_argument('output_avi', help='where i can save the avi')
     args = parser.parse_args()
     assert '://' in args.filename, "ffmpeg needs explicit proto (forgot file://?)"
     content = gen_xbin_playlist(args.filename)
